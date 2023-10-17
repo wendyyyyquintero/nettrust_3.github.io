@@ -64,6 +64,13 @@ li a:hover {
   background-color: rgba(25, 25, 25, 1);
 }
 
+section, .module, #cards{
+  display:grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  border: 1px solid black
+}
+
 footer {
   text-align: center;
   padding: 3px;
