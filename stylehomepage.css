@@ -11,17 +11,17 @@ body{
 
 h2, h3, h4, h5, p {
   font-family: 'Poppins', sans-serif;
-   color: rgba(18, 18, 21);
+  color: rgba(18, 18, 21);
 }
   
 header{
   padding: 2px;
   font-family: 'Poppins', sans-serif;
-  text-align: center;
+  text-align: left;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
-  padding-right: 10px ;
+  padding-right: 10px;
   background: rgba(83,133,162,255);
   color: white;
   font-size: 20px;
