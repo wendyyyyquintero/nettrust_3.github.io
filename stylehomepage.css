@@ -8,6 +8,8 @@ body{
   width: 33.33%;
   padding-top: 15px;
   padding-bottom: 15px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 
 @media screen and (max-width:600px) {
@@ -22,7 +24,7 @@ h2, h3, h4, h5, p {
 }
   
 header{
-  padding: 5px;
+  padding: 2px;
   font-family: 'Poppins', sans-serif;
   text-align: center;
   background: rgba(83,133,162,255);
@@ -48,7 +50,7 @@ li a {
   color: white;
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  padding: 14px 21px;
+  padding: 14px 20px;
   text-decoration: none;
 }
     
