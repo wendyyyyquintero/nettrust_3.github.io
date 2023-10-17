@@ -54,10 +54,17 @@ li a {
     
 li a:hover {
   transition: ease;
-  transition-duration: 2s;
+  transition-duration: 1s;
   background-color: rgba(25, 25, 25, 1);
 }
   
 .active {
   background-color: rgba(25, 25, 25, 1);
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgba(83,133,162,255);
+  color: white;
 }
