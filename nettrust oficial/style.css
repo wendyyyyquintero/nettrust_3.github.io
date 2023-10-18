@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;0,900;1,500&display=swap');
+
+
+
+
+body {
+    background-color: #F7FBFE;
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #F7FBFE;
+
+}
+
+*{
+
+    margin: 0%;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.background-image {
+
+    background-image: url(fondo2.png);
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    /* background-attachment: fixed; */
+
+}
+
+
+
+header {
+
+    z-index: 999;
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 15px 200px;
+
+    transition: 0.5s case;
+
+}
+
+
+
+header .brand {
+
+    color: rgb(255, 255, 255);
+
+    font-size: 1.5em;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    text-decoration: none;
+
+}
+
+
+
+header .navigation {
+
+    position: relative;
+
+}
+
+
+
+header .navigation .navigation-items a{
+
+    position: relative;
+
+    color: rgb(255, 255, 255);
+
+    font-size: 1em;
+
+    font-weight: 500;
+
+    text-decoration: none;
+
+    margin-left: 30px;
+
+    transition: 0.3s ease;
+
+}
+
+
+
+header .navigation .navigation-items a:before{
+
+    content: '';
+
+    position: absolute;
+
+    background: rgb(255, 255, 255);
+
+    width: 0;
+
+    height: 3px;
+
+    bottom: 0;
+
+    left: 0;
+
+    transition: 0.3s ease;
+
+
+
+}
+
+
+
+header .navigation .navigation-items a:hover:before {
+
+    width: 100%;
+
+}
+
+
+
+section {
+
+    padding: 100px 200px;
+
+}
+
+.header {
+    background-image: url(image.png);
+}
+
+
+.home{
+
+    position: relative;
+
+    width: 100%;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-direction: column;
+
+    background: #358eb1;
+
+
+}
+
+
+
+.home .content {
+
+    z-index: 888;
+
+    color: white;
+
+    width: 70%;
+
+    margin-top: 50px;
+
+}
+
+
+
+.home.content h1 {
+
+    font-size: 4em;
+
+    font-weight: 900;
+
+    text-transform: uppercase;
+
+    letter-spacing: 5px;
+
+    line-height: 75px;
+
+    margin-bottom: 40px;
+
+}
+
+
+
+.home .content h1 span {
+
+    font-size: 1.2em;
+
+    font-weight: 600;
+
+}
+
+
+
+.home .content p{
+
+    margin-bottom: 65px;
+
+}
+
+
+
+.home .content a{
+
+    background: white;
+
+    padding: 15px 35px;
+
+    color: rgb(28, 92, 170);
+
+    font-size: 1.1em;
+
+    font-weight: 500;
+
+    text-decoration: none;
+
+    border-radius: 2px;
+
+}
+
+
+
+.home .media-icon a{
+
+    color: white;
+
+    font-size: 1.6em;
+
+    transition: 0.3s ease;
+
+}
+
+
+
+.home .media-icons a:not(:last-child) {
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.home .media-icons a:hover {
+
+    transform: scale(1.3);
+
+}
+
+.home img {
+    z-index: 000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@media (max-width: 1040px) {
+
+        header {
+
+            padding: 12px 20px;
+
+        }
+
+    section {
+
+        padding: 100px 20px;
+
+        }
+
+
+
+        .menu-btn{
+
+            background: url(menu.png);
+
+            background-size: 30px;
+
+            background-position: center;
+
+            width: 40px;
+
+            height: 40px;
+
+            cursor: pointer;
+
+            transition: 0.3s ease;
+
+        }
+
+
+
+        .home .media-icons{
+
+            right: 15px;
+
+        }
+
+       
+
+        header .navigation {
+
+            display: none;
+
+        }
+
+
+
+        .menu-btn{
+
+            background: url(menu.png) no-repeat;
+
+            background-size: 30px;
+
+            background-position: center;
+
+            width: 40px;
+
+            height: 40px;
+
+            cursor: pointer;
+
+            transition: 0.3s ease;
+
+        }
+
+    }
+
+    .services {
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 0;
+    }
+
+    .services {
+        padding: 25px;
+        margin: 0 15px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+
+    footer {
+
+
+
+        background-color: rgb(67, 70, 77);
+
+   
+
+        color: white;
+
+   
+
+        text-align: center;
+
+   
+
+        height: 200;
+
+   
+
+        padding: 20px;
+
+
+
+        position: relative;
+
+   
+
+    }
+
+   
+
+     
+
+   
+
+    .social-media a {
+
+   
+
+        color: white;
+
+   
+
+        text-decoration: none;
+
+   
+
+        margin: 0 15px;
+
+   
+
+    }
+
+    .social-media a:hover {
+
+   
+
+        text-decoration: underline;
+
+   
+
+    }
+
+    
